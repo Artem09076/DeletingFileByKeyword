@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: Тест на скрипт Filesdeleter.sh
+      - name: Test on script Filesdeleter.sh
         run: |
           chmod +x TestFilesdeleter.sh 
           ./TestFilesdeleter.sh
